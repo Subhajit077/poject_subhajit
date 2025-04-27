@@ -13,7 +13,6 @@ num_classes = 15
 
 # Dataset paths
 train_data_path = "data/train"
-val_data_path = "data/val"
 test_data_path = "data/test"
 
 # Training settings
