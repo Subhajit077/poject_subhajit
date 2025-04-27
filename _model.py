@@ -3,8 +3,8 @@ import torch.nn as nn
 from _config import resize_x, resize_y, input_channels, num_classes
 
 class TrafficSignCNN(nn.Module):
-    def __init__(self):
-        super(TrafficSignCNN, self).__init__()
+    def _init_(self):
+        super(TrafficSignCNN, self)._init_()
         
         self.conv1 = nn.Conv2d(input_channels, 32, kernel_size=3, padding=1)
         self.conv2 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
