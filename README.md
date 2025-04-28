@@ -33,6 +33,7 @@ The model is implemented in the `_model.py` file as `TrafficSignCNN`.
 ### Training
 - **Input**: Directory paths for training and validation datasets.
   - Each directory should contain subdirectories named after the class labels, with images inside.
+  - The dataset used for training and testing the model can be downloaded from Kaggle: https://universe.roboflow.com/selfdriving-car-qtywx/self-driving-cars-lfjou 
   - Example structure:
     ```
     data/
